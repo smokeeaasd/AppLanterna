@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppLanterna.View.Lanterna">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#111">
+            <Frame BackgroundColor="#10e094" HeightRequest="55">
+                <Label Text="Lanterna"
+                       TextColor="#fff"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"
+                       FontSize="40"
+                       FontFamily="Kanit"/>
+            </Frame>
+
+            <Button 
+                x:Name="btnLanterna"
+                Margin="0, 50, 0, 50"
+                WidthRequest="150" HeightRequest="150"
+                VerticalOptions="Center" HorizontalOptions="Center"
+                BorderColor="#e01033" CornerRadius="100" BorderWidth="10"
+                BackgroundColor="Transparent" Text="OFF" TextColor="#e01033"
+                FontSize="40"
+                Clicked="btnLanterna_Clicked"/>
+
+            <Frame BackgroundColor="Transparent"
+                   BorderColor="#10e094"
+                   CornerRadius="100"
+                   WidthRequest="300"
+                   HeightRequest="30"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center">
+
+                <Label x:Name="lblBateria" Text="Status da bateria: "
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       FontSize="18"
+                       TextColor="White"/>
+
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLanterna.Android", "AppLanterna.Android\AppLanterna.Android.csproj", "{A37EDFAD-464A-4370-AC4F-0AC93C9F9B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLanterna", "AppLanterna\AppLanterna.csproj", "{C10F3A3A-B97E-4C51-BA11-A9DE74CFB72D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A37EDFAD-464A-4370-AC4F-0AC93C9F9B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37EDFAD-464A-4370-AC4F-0AC93C9F9B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37EDFAD-464A-4370-AC4F-0AC93C9F9B62}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A37EDFAD-464A-4370-AC4F-0AC93C9F9B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37EDFAD-464A-4370-AC4F-0AC93C9F9B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37EDFAD-464A-4370-AC4F-0AC93C9F9B62}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C10F3A3A-B97E-4C51-BA11-A9DE74CFB72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C10F3A3A-B97E-4C51-BA11-A9DE74CFB72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C10F3A3A-B97E-4C51-BA11-A9DE74CFB72D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C10F3A3A-B97E-4C51-BA11-A9DE74CFB72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C10F3A3A-B97E-4C51-BA11-A9DE74CFB72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C10F3A3A-B97E-4C51-BA11-A9DE74CFB72D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D9F284E-DA5E-470D-B885-293593573F4D}
+	EndGlobalSection
+EndGlobal
